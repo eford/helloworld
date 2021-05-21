@@ -56,9 +56,9 @@ $(res_list[x])
 """
 
 # ╔═╡ 9d5a69ca-df63-4402-a48e-bc76571112f5
+# main {max-width: 100vw;}
 html"""
 <style>
-main {max-width: 100vw;}
 header {
 display: none;
 }
