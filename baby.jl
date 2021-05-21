@@ -56,17 +56,23 @@ $(res_list[x])
 """
 
 # ╔═╡ 9d5a69ca-df63-4402-a48e-bc76571112f5
-# main {max-width: 100vw;}
 html"""
 <style>
+main {
+	max-width: 97% ! important;
+	margin-left: 10px !important;
+}
 header {
-display: none;
+	display: none;
 }
 footer {
-display: none;
+	display: none;
 }
 </style>
 """
+
+# ╔═╡ c12f18bd-8806-482a-83b5-17e7ef51ee15
+#html"<script>present()</script>"
 
 # ╔═╡ Cell order:
 # ╟─d2e5fc28-908f-4fbb-926e-3be4d04301f0
@@ -77,3 +83,4 @@ display: none;
 # ╟─f4c4de78-9ead-442f-aa23-83cceec13544
 # ╟─9d5a69ca-df63-4402-a48e-bc76571112f5
 # ╟─aa52e565-c603-4adc-ae2a-a21da99f8865
+# ╟─c12f18bd-8806-482a-83b5-17e7ef51ee15
